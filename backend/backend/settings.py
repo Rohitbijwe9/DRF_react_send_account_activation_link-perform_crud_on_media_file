@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': os.getenv('EMAIL_HOST_USER'),
-        'NAME': os.getenv('EMAIL_HOST_USER'),
-        'USER':os.getenv('EMAIL_HOST_USER'),
-        'PASSWORD':os.getenv('EMAIL_HOST_USER')
+        'ENGINE': os.getenv('ENGINE'),
+        'NAME': os.getenv('NAME'),
+        'USER':os.getenv('USER'),
+        'PASSWORD':os.getenv('PASSWORD')
     }
 }
 
